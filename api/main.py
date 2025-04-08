@@ -22,7 +22,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL  = keras.layers.TFSMLayer("/home/rhorschac/jnotebook/diabetic_retinopathy/saved_models/1")
+MODEL  = keras.layers.TFSMLayer("/home/rhorschac/Documents/diabetic_retinopathy/saved_models")
 class_names = {0: "No DR", 1: "Mild", 2: "Moderate", 3: "Severe", 4: "Proliferative DR"}
 @app.get("/ping")
 async def ping():
