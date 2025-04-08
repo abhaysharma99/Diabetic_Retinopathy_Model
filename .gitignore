@@ -1,2 +1,9 @@
 frontend/react-app/node_modules/
 node_modules/
+__pycache__/
+*.pyc
+*.log
+*.env
+node_modules/
+*.eslintcache
+*.pack
