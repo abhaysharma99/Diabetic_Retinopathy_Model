@@ -1,6 +1,6 @@
 # Deep Learning & GPU Support
-tensorflow==2.14.0
-tensorflow-addons==0.21.0
+# tensorflow==2.14.0
+# tensorflow-addons==0.21.0
 
 # FastAPI + Server tools
 fastapi==0.110.0
